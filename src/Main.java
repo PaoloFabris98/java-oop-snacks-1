@@ -9,9 +9,8 @@ public class Main {
         System.out.println("Nome studente1: " + studente1.nameReturning());
         System.out.println("Cognome studente1: " + studente1.surnameReturning());
         System.out.println("Età studente1: " + studente1.ageReturning());
-        System.out.println();
-
         Studente studente2 = new Studente("", "Verdi", -10);
+        System.out.println();
 
         System.out.println("### Test della classe bankAccount ###");
         bankAccount account1 = new bankAccount();
